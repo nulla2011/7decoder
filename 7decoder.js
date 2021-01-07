@@ -50,7 +50,7 @@ fs.stat(path, function (err, stats) {
             }
             IV = buffer;
         })
-        let encData = fs.readFileSync(path).slice(7 + 16);
+        let encData = fs.readFileSync(path).slice(7 + 16);   //剩下的是需要解密的数据
         const algorithm = "aes-128-cbc";
         const key = getKey();
         const decipher = crypto.createDecipheriv(algorithm, key, IV);

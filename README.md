@@ -1,1 +1,1 @@
-A file decoder for [ナナシス](http://t7s.jp)
+A file decoder for game [ナナシス](http://t7s.jp)
