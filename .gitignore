@@ -1,3 +1,5 @@
 .vscode/
 *.bak
 *.jpg
+node_modules/
+package-lock.json
